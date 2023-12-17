@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Написать нам</title>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <a href="index.html" id="logo"><span class="pink">САЙТ</span><i>ВИЗИТКА</i></a>
+        <nav id="mainnav">
+            <ul>
+                <li><a href="uslugi.html">Услуги</a></li>
+                <li><a href="onas.html">О нас</a></li>
+                <li><a href="klienti.html">Клиенты</a></li>
+                <li><a href="kontakti.html">Контакты</a></li>
+            </ul>
+        </nav>
+        </header>
+        <main>
+        <form action=" " id="contact-form">
+            <div class="form_item">
+                <label for="topic">Тема</label><br>
+                <select name="topic" id="topic">
+                    <option value="1">Заказать услугу</option>
+                    <option value="2">Оставить отзыв/замечание</option>
+                    <option value="3">Предложить сотрудничество</option>
+                    <option value="4">Другое</option>
+                </select>
+            </div>
+           <div class="form_item">
+            <label for="name">Имя</label><br>
+            <input name="name" id="name" type="text" placeholder="Ваше имя" >
+           </div>
+           <div class="form_item">
+            <label for="email">E-mail</label><br>
+            <input type="email" placeholder="Ваша почта">
+           </div>
+           <div class="form_item">
+            <label for="name">Текст сообщения</label><br>
+            <textarea></textarea>
+            
+           </div>
+           <div class="form_item">
+            <input type="submit">
+           </div> 
+        </form>
+        </main>
+    </div>
+    
+    <footer>
+        <p class="footer_block">Написать нам&#9650;</p>
+        <p class="footer_block">&copy; Новая компания</p>
+        <div class="footer_icons">
+            <img class="footer_img" src="img/mailru.png" alt="" target="_blank">
+            <img class="footer_img" src="img/ok.png" alt="" target="_blank">
+            <img class="footer_img" src="img/vk.png" alt="" target="_blank">
+        </div>
+    </footer>
+</body>
+</html>
